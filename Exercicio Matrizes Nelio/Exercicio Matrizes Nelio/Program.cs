@@ -10,11 +10,17 @@ namespace Exercicio_Matrizes_Nelio
     {
         static void Main(string[] args)
         {
-            int M, N
+            int M, N;
+            int[,] A;
 
+            M = int.Parse(Console.ReadLine());
+            N = int.Parse(Console.ReadLine());
+            A = new int[M, N];
 
-
-
+            for (int i = 0; i < M; i++)
+            {
+                string[] s = Console.ReadLine().Split(' ');
+            }
 
 
 
