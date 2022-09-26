@@ -1,0 +1,35 @@
+﻿@model Cliente
+
+<h1>Dados dos Cliente</h1>
+
+<hr />
+
+@Html.LabelFor(model => model.Id)
+<input asp-for="Id" />
+@*@Html.DisplayFor(model => model.Id)*@
+@*@Html.TextBoxFor(model => model.Id)*@
+<br />
+
+@Html.LabelFor(model => model.Nome)
+<input asp-for="Nome" />
+@*@Html.EditorFor(model => model.Nome)*@
+@*@Html.TextBoxFor(model => model.Nome)*@
+<br />
+
+@Html.LabelFor(model => model.Email)
+<input asp-for="Email" />
+@*@Html.TextBoxFor(model => model.Nome)*@
+<br />
+
+Sexo :
+<radiobutton for="Sexo">@Model.Sexo</radiobutton>
+<br />
+
+Pais :
+<label for="Pais"> @Model.Pais </label>
+<br />
+
+@Html.ActionLink("Retornar", "Index", "Cliente")
+
+
+<hr />

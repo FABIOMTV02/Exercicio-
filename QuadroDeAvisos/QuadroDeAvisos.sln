@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadroDeAvisos", "QuadroDeAvisos\QuadroDeAvisos.csproj", "{285C4127-33DF-4537-B174-A24CAA08D9E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{285C4127-33DF-4537-B174-A24CAA08D9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285C4127-33DF-4537-B174-A24CAA08D9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285C4127-33DF-4537-B174-A24CAA08D9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285C4127-33DF-4537-B174-A24CAA08D9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {665B5563-EC84-4232-8CE1-3D30C6503F82}
+	EndGlobalSection
+EndGlobal
